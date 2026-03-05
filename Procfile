@@ -1,0 +1,1 @@
+web: php artisan migrate:fresh --seed --force && heroku-php-apache2 public/
